@@ -15,6 +15,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SVProgressHUD")
+            name: "SVProgressHUD",
+            exclude: ["SVProgressHUD-Prefix.pch"],
+            resources: [.copy("SVProgressHUD.bundle")])
     ]
 )
