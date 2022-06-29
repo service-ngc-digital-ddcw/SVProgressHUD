@@ -15,6 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SVProgressHUD")
+            name: "SVProgressHUD",
+            path: "SVProgressHUD")
     ]
 )
